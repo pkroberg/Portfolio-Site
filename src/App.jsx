@@ -1,15 +1,20 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
 import "./App.css";
 
 //components
 import Header from "./components/Header";
+import About from "./components/About";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
       <Header />
+      <About />
+      <Work />
+      <Contact />
     </>
   );
 }
