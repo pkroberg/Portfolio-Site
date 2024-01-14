@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
+      <h1 className="text-red-500 font-bold text-5xl">Tailwind Test</h1>
       <Header />
       <About />
       <Work />
