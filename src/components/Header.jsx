@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="sm:px-16 px-6 w-full flex items-center py-3 fixed top-0 z-20 bg-paletteGreen9">
+    <nav className="sm:px-16 px-6 w-full flex items-center py-3 fixed top-0 z-20 bg-paletteBlue1">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <a className="flex items-center gap-2" href="/">
           <img
@@ -10,7 +10,7 @@ const Header = () => {
             src="src/assets/github profile-fotor.png"
             alt="Profile Picture"
           />
-          <p className="text-[20px] text-white font-bold cursor-pointer flex">
+          <p className="text-[20px] text-white font-bold cursor-pointer flex pl-2 font">
             PARKER OBERG
           </p>
         </a>
